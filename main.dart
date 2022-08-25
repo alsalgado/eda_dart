@@ -10,7 +10,13 @@ void main(List<String> args) {
   // exemplo4.fibonacciDinamico(n_esimo: 10, tabela: casosBasicos);
 
   Fibonacci fib = new Fibonacci();
-  print(fib.sequencia);
+
+  fib.printSequencia();
   fib.calc(n_esimo: 50);
-  print(fib.sequencia);
+
+  fib.printNEsimo(n_esimo: 10);
+
+  fib.printNEsimo(n_esimo: 60);
+
+  fib.printSequencia();
 }
